@@ -82,6 +82,37 @@ bool LineSegment::isLineSegmentPerpendicular(LineSegment &LineSegment)
     return false;
 }
 
+
+// Return true if line segments AB and CD intersect
+Point LineSegment::intersect(LineSegment &LineSegment){
+    Point C = LineSegment.getEnd1();
+    Point D = LineSegment.getEnd2();
+    double a1 = Point_2.getYCoord() - Point_1.getYCoord();
+    double b1 = Point_1.getXCoord() - Point_2.getXCoord() ;
+    double c1 = a1*(Point_1.getXCoord()) + b1*(Point_1.getYCoord());
+ 
+    // Line CD represented as a2x + b2y = c2
+    double a2 = D.getYCoord() - C.getYCoord() ;
+    double b2 = C.getXCoord() - D.getXCoord() ;
+    double c2 = a2*(C.getXCoord() )+ b2*(C.getYCoord());
+ 
+    double determinant = a1*b2 - a2*b1;
+ 
+    if (determinant == 0)
+    {
+        // The lines are parallel. This is simplified
+        // by returning a pair of FLT_MAX
+        return Point(0.0, 0.0);
+    }
+    else
+    {
+        double x = (b2*c1 - b1*c2)/determinant;
+        double y = (a1*c2 - a2*c1)/determinant;
+        return Point(x, y);
+    }
+}
+
+
 //Getters and setters
 Point LineSegment::getEnd1()
 {

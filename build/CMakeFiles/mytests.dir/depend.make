@@ -38,7 +38,6 @@ CMakeFiles/mytests.dir/Tests.cpp.o: ../Point.hpp
 CMakeFiles/mytests.dir/Tests.cpp.o: ../Shape.hpp
 CMakeFiles/mytests.dir/Tests.cpp.o: ../Tests.cpp
 CMakeFiles/mytests.dir/Tests.cpp.o: ../Triangle.hpp
-CMakeFiles/mytests.dir/Tests.cpp.o: ../myfunctions.h
 
 CMakeFiles/mytests.dir/Triangle.cpp.o: ../Point.hpp
 CMakeFiles/mytests.dir/Triangle.cpp.o: ../Shape.hpp

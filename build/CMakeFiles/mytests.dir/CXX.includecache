@@ -368,29 +368,15 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/pjoter/Racing/LineSegment.cpp
-cmath
--
-iostream
--
-LineSegment.hpp
-/home/pjoter/Racing/LineSegment.hpp
-
 /home/pjoter/Racing/LineSegment.hpp
 cmath
+-
+float.h
 -
 Point.hpp
 /home/pjoter/Racing/Point.hpp
 Shape.hpp
 /home/pjoter/Racing/Shape.hpp
-
-/home/pjoter/Racing/Point.cpp
-iostream
--
-cmath
--
-Point.hpp
-/home/pjoter/Racing/Point.hpp
 
 /home/pjoter/Racing/Point.hpp
 iostream
@@ -407,20 +393,10 @@ iostream
 /home/pjoter/Racing/Tests.cpp
 gtest/gtest.h
 -
-myfunctions.h
-/home/pjoter/Racing/myfunctions.h
 Point.hpp
 /home/pjoter/Racing/Point.hpp
 LineSegment.hpp
 /home/pjoter/Racing/LineSegment.hpp
-Triangle.hpp
-/home/pjoter/Racing/Triangle.hpp
-
-/home/pjoter/Racing/Triangle.cpp
-iostream
--
-cmath
--
 Triangle.hpp
 /home/pjoter/Racing/Triangle.hpp
 
@@ -433,6 +409,4 @@ Shape.hpp
 /home/pjoter/Racing/Shape.hpp
 Point.hpp
 /home/pjoter/Racing/Point.hpp
-
-/home/pjoter/Racing/myfunctions.h
 

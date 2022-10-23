@@ -83,6 +83,16 @@ TEST(LineSegmentTest, AreLinesPerpendicular)
     LineSegment LineSegment_2(testPoint3, testPoint4);
     GTEST_ASSERT_EQ(LineSegment_1.isLineSegmentPerpendicular(LineSegment_2), true);
 }
+TEST(LineSegmentTest, Intersect)
+{
+    Point testPoint(0.0,0.0);
+    Point testPoint2(0.0,10.0);
+    Point testPoint3(-5.0,5.0);
+    Point testPoint4(5.0,5.0);
+    LineSegment LineSegment_1(testPoint, testPoint2);
+    LineSegment LineSegment_2(testPoint3, testPoint4);
+    GTEST_ASSERT_EQ(LineSegment_1.intersect(LineSegment_2).getYCoord(), 5.0);
+}
 
 TEST(TriangleTest, Circuit)
 {

@@ -1,4 +1,5 @@
 #include <cmath>
+#include <float.h>
 #include "Point.hpp"
 #include "Shape.hpp"
 
@@ -28,6 +29,7 @@ public:
     bool isPointOnLine(Point);
     bool isLineSegmentPararell(LineSegment &);
     bool isLineSegmentPerpendicular(LineSegment &);
+    Point intersect(LineSegment &);
     virtual void rotate(double, double , double);
     virtual void moveByVector(double, double);
     
