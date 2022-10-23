@@ -21,6 +21,6 @@ add_subdirectory(googletest)
 
 include_directories(googletest/include) # this is so we can #include <gtest/gtest.h>
 
-add_executable(mytests mytests.cpp) # add this executable
+add_executable(mytests Tests.cpp Point.cpp LineSegment.cpp Triangle.cpp RectangularTriangle.cpp) # add this executable
 
 target_link_libraries(mytests PRIVATE gtest) # link google test to this executable

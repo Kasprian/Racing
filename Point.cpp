@@ -37,22 +37,34 @@ double Point::distanceTo(Point &Point_2)
     return sqrt(temp);
 }
 
+void Point::moveByVector(double xCoord,double yCoord){
+    x = x + xCoord;
+    y = y + yCoord;
+}
+
+void Point::rotate(double theta, double ox, double oy){
+    //  If you rotate point (px, py) around point o(ox, oy) by angle theta you'll get:
+    //TODO: Requires futher investigation, not all cases work.
+    x = cos(theta) * (x-ox) - sin(M_PI - theta) * (y-oy) + ox;
+    y = sin(M_PI - theta) * (x-ox) + cos(theta) * (y-oy) + oy;
+}
+
 void Point::setXCoord(double xCoord)
 {
-    x = xCoord;
+    this -> x = xCoord;
 }
 
 void Point::setYCoord(double yCoord)
 {
-    y = yCoord;
+    this -> y = yCoord;
 }
 
-double const Point::getXCoord()
+double Point::getXCoord()
 {
     return x;
 }
 
-double const Point::getYCoord()
+double Point::getYCoord()
 {
     return y;
 }

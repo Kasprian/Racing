@@ -23,6 +23,11 @@ public:
     Point const getPointA();
     Point const getPointB();
     Point const getPointC();
+
+    virtual void moveByVector(double, double);
+    virtual void rotate(double, double , double);
+    double getArea();
+    double getCircuit();
     
     void setPointA(Point);
     void setPointB(Point);

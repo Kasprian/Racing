@@ -22,19 +22,45 @@ Triangle::~Triangle()
     
 }
 
+void Triangle::moveByVector(double xCoord,double yCoord)
+{
+    A.setXCoord(A.getXCoord()+xCoord);
+    A.setYCoord(A.getYCoord()+yCoord);
+    B.setXCoord(B.getXCoord()+xCoord);
+    B.setYCoord(B.getYCoord()+yCoord);
+    C.setXCoord(C.getXCoord()+xCoord);
+    C.setYCoord(C.getYCoord()+yCoord);
+}
+
+void Triangle::rotate(double theta, double ox, double oy)
+{
+    //TODO: Copy  solution from Point.cpp when all cases will work & apply to all points of triangle.
+}
+
+double Triangle::getArea()
+{
+    double s = getCircuit() / 2 ;
+    return sqrt( s * (s - A.distanceTo(B) ) * (s - A.distanceTo(C) ) * (s - B.distanceTo(C)));
+}
+
+double Triangle::getCircuit()
+{
+    return A.distanceTo(B) + A.distanceTo(C) + B.distanceTo(C);
+}
+
 void Triangle::setPointA(Point newA)
 {
-    A = newA;
+    this->A = newA;
 }
 
 void Triangle::setPointB(Point newB)
 {
-    B = newB;
+    this->B = newB;
 }
 
-void Triangle::setPointA(Point newB)
+void Triangle::setPointC(Point newC)
 {
-    B = newB;
+    this->C = newC;
 }
 
 Point const Triangle::getPointA()

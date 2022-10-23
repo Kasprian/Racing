@@ -19,12 +19,13 @@ public:
     Point(double xCoord, double yCoord);
     
     ~Point();
-
-    double const getXCoord();
-    double const getYCoord();
+    
+    double getXCoord();
+    double getYCoord();
     double distanceTo(Point &);
 
-    void rotate();
+    virtual void rotate(double, double, double);
+    virtual void moveByVector(double, double);
     void setXCoord(double);
     void setYCoord(double);
     

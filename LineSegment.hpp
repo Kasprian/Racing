@@ -23,14 +23,16 @@ public:
     // Destructor
     ~LineSegment();
     
-    // Accessor Functions
+    double length();
+    double slope();
+    bool isPointOnLine(Point);
+    bool isLineSegmentPararell(LineSegment &);
+    bool isLineSegmentPerpendicular(LineSegment &);
+    virtual void rotate(double, double , double);
+    virtual void moveByVector(double, double);
+    
     Point getEnd1();
     Point getEnd2();
-    double length();
-    void rotate();
-    bool isPointOnLine(Point);
-    
-    // Mutator Functions
     void setEnd1(Point);
     void setEnd2(Point);
 };
