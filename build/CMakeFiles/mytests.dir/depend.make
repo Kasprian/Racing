@@ -12,36 +12,36 @@ CMakeFiles/mytests.dir/Point.cpp.o: ../Shape.hpp
 
 CMakeFiles/mytests.dir/RectangularTriangle.cpp.o: ../RectangularTriangle.cpp
 
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest-assertion-result.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest-death-test.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest-matchers.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest-message.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest-param-test.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest-printers.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest-test-part.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest-typed-test.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest_pred_impl.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/gtest_prod.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/custom/gtest-port.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-filepath.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-internal.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-param-util.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-port-arch.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-port.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-string.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/mytests.dir/Tests.cpp.o: ../LineSegment.hpp
+CMakeFiles/mytests.dir/Tests.cpp.o: ../Point.hpp
+CMakeFiles/mytests.dir/Tests.cpp.o: ../Shape.hpp
+CMakeFiles/mytests.dir/Tests.cpp.o: ../Tests.cpp
+CMakeFiles/mytests.dir/Tests.cpp.o: ../Triangle.hpp
+CMakeFiles/mytests.dir/Tests.cpp.o: ../myfunctions.h
+
 CMakeFiles/mytests.dir/Triangle.cpp.o: ../Point.hpp
 CMakeFiles/mytests.dir/Triangle.cpp.o: ../Shape.hpp
 CMakeFiles/mytests.dir/Triangle.cpp.o: ../Triangle.cpp
 CMakeFiles/mytests.dir/Triangle.cpp.o: ../Triangle.hpp
-
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest-assertion-result.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest-death-test.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest-matchers.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest-message.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest-param-test.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest-printers.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest-test-part.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest-typed-test.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest_pred_impl.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/gtest_prod.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/custom/gtest-port.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/custom/gtest-printers.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-filepath.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-internal.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-param-util.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-port-arch.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-port.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-string.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-type-util.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../LineSegment.hpp
-CMakeFiles/mytests.dir/mytests.cpp.o: ../Point.hpp
-CMakeFiles/mytests.dir/mytests.cpp.o: ../Shape.hpp
-CMakeFiles/mytests.dir/mytests.cpp.o: ../Triangle.hpp
-CMakeFiles/mytests.dir/mytests.cpp.o: ../myfunctions.h
-CMakeFiles/mytests.dir/mytests.cpp.o: ../mytests.cpp
 

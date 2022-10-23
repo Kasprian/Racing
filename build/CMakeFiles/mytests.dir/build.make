@@ -57,18 +57,18 @@ include CMakeFiles/mytests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mytests.dir/flags.make
 
-CMakeFiles/mytests.dir/mytests.cpp.o: CMakeFiles/mytests.dir/flags.make
-CMakeFiles/mytests.dir/mytests.cpp.o: ../mytests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pjoter/Racing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mytests.dir/mytests.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mytests.dir/mytests.cpp.o -c /home/pjoter/Racing/mytests.cpp
+CMakeFiles/mytests.dir/Tests.cpp.o: CMakeFiles/mytests.dir/flags.make
+CMakeFiles/mytests.dir/Tests.cpp.o: ../Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pjoter/Racing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mytests.dir/Tests.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mytests.dir/Tests.cpp.o -c /home/pjoter/Racing/Tests.cpp
 
-CMakeFiles/mytests.dir/mytests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytests.dir/mytests.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pjoter/Racing/mytests.cpp > CMakeFiles/mytests.dir/mytests.cpp.i
+CMakeFiles/mytests.dir/Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytests.dir/Tests.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pjoter/Racing/Tests.cpp > CMakeFiles/mytests.dir/Tests.cpp.i
 
-CMakeFiles/mytests.dir/mytests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytests.dir/mytests.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pjoter/Racing/mytests.cpp -o CMakeFiles/mytests.dir/mytests.cpp.s
+CMakeFiles/mytests.dir/Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytests.dir/Tests.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pjoter/Racing/Tests.cpp -o CMakeFiles/mytests.dir/Tests.cpp.s
 
 CMakeFiles/mytests.dir/Point.cpp.o: CMakeFiles/mytests.dir/flags.make
 CMakeFiles/mytests.dir/Point.cpp.o: ../Point.cpp
@@ -124,7 +124,7 @@ CMakeFiles/mytests.dir/RectangularTriangle.cpp.s: cmake_force
 
 # Object files for target mytests
 mytests_OBJECTS = \
-"CMakeFiles/mytests.dir/mytests.cpp.o" \
+"CMakeFiles/mytests.dir/Tests.cpp.o" \
 "CMakeFiles/mytests.dir/Point.cpp.o" \
 "CMakeFiles/mytests.dir/LineSegment.cpp.o" \
 "CMakeFiles/mytests.dir/Triangle.cpp.o" \
@@ -133,7 +133,7 @@ mytests_OBJECTS = \
 # External object files for target mytests
 mytests_EXTERNAL_OBJECTS =
 
-mytests: CMakeFiles/mytests.dir/mytests.cpp.o
+mytests: CMakeFiles/mytests.dir/Tests.cpp.o
 mytests: CMakeFiles/mytests.dir/Point.cpp.o
 mytests: CMakeFiles/mytests.dir/LineSegment.cpp.o
 mytests: CMakeFiles/mytests.dir/Triangle.cpp.o

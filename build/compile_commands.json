@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/pjoter/Racing/build",
-  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/include -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/mytests.dir/mytests.cpp.o -c /home/pjoter/Racing/mytests.cpp",
-  "file": "/home/pjoter/Racing/mytests.cpp"
+  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/include -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/mytests.dir/Tests.cpp.o -c /home/pjoter/Racing/Tests.cpp",
+  "file": "/home/pjoter/Racing/Tests.cpp"
 },
 {
   "directory": "/home/pjoter/Racing/build",

@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pjoter/Racing/LineSegment.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/LineSegment.cpp.o"
   "/home/pjoter/Racing/Point.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/Point.cpp.o"
   "/home/pjoter/Racing/RectangularTriangle.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/RectangularTriangle.cpp.o"
+  "/home/pjoter/Racing/Tests.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/Tests.cpp.o"
   "/home/pjoter/Racing/Triangle.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/Triangle.cpp.o"
-  "/home/pjoter/Racing/mytests.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/mytests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

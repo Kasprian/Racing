@@ -302,6 +302,33 @@ RectangularTriangle.cpp.s:
 	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/RectangularTriangle.cpp.s
 .PHONY : RectangularTriangle.cpp.s
 
+Tests.o: Tests.cpp.o
+
+.PHONY : Tests.o
+
+# target to build an object file
+Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Tests.cpp.o
+.PHONY : Tests.cpp.o
+
+Tests.i: Tests.cpp.i
+
+.PHONY : Tests.i
+
+# target to preprocess a source file
+Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Tests.cpp.i
+.PHONY : Tests.cpp.i
+
+Tests.s: Tests.cpp.s
+
+.PHONY : Tests.s
+
+# target to generate assembly for a file
+Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Tests.cpp.s
+.PHONY : Tests.cpp.s
+
 Triangle.o: Triangle.cpp.o
 
 .PHONY : Triangle.o
@@ -329,33 +356,6 @@ Triangle.cpp.s:
 	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Triangle.cpp.s
 .PHONY : Triangle.cpp.s
 
-mytests.o: mytests.cpp.o
-
-.PHONY : mytests.o
-
-# target to build an object file
-mytests.cpp.o:
-	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/mytests.cpp.o
-.PHONY : mytests.cpp.o
-
-mytests.i: mytests.cpp.i
-
-.PHONY : mytests.i
-
-# target to preprocess a source file
-mytests.cpp.i:
-	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/mytests.cpp.i
-.PHONY : mytests.cpp.i
-
-mytests.s: mytests.cpp.s
-
-.PHONY : mytests.s
-
-# target to generate assembly for a file
-mytests.cpp.s:
-	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/mytests.cpp.s
-.PHONY : mytests.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -382,12 +382,12 @@ help:
 	@echo "... RectangularTriangle.o"
 	@echo "... RectangularTriangle.i"
 	@echo "... RectangularTriangle.s"
+	@echo "... Tests.o"
+	@echo "... Tests.i"
+	@echo "... Tests.s"
 	@echo "... Triangle.o"
 	@echo "... Triangle.i"
 	@echo "... Triangle.s"
-	@echo "... mytests.o"
-	@echo "... mytests.i"
-	@echo "... mytests.s"
 .PHONY : help
 
 

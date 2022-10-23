@@ -12,12 +12,7 @@ CMakeFiles/mytests.dir/Point.cpp.o
  /home/pjoter/Racing/Shape.hpp
 CMakeFiles/mytests.dir/RectangularTriangle.cpp.o
  /home/pjoter/Racing/RectangularTriangle.cpp
-CMakeFiles/mytests.dir/Triangle.cpp.o
- /home/pjoter/Racing/Point.hpp
- /home/pjoter/Racing/Shape.hpp
- /home/pjoter/Racing/Triangle.cpp
- /home/pjoter/Racing/Triangle.hpp
-CMakeFiles/mytests.dir/mytests.cpp.o
+CMakeFiles/mytests.dir/Tests.cpp.o
  ../googletest/googletest/include/gtest/gtest-assertion-result.h
  ../googletest/googletest/include/gtest/gtest-death-test.h
  ../googletest/googletest/include/gtest/gtest-matchers.h
@@ -42,6 +37,11 @@ CMakeFiles/mytests.dir/mytests.cpp.o
  /home/pjoter/Racing/LineSegment.hpp
  /home/pjoter/Racing/Point.hpp
  /home/pjoter/Racing/Shape.hpp
+ /home/pjoter/Racing/Tests.cpp
  /home/pjoter/Racing/Triangle.hpp
  /home/pjoter/Racing/myfunctions.h
- /home/pjoter/Racing/mytests.cpp
+CMakeFiles/mytests.dir/Triangle.cpp.o
+ /home/pjoter/Racing/Point.hpp
+ /home/pjoter/Racing/Shape.hpp
+ /home/pjoter/Racing/Triangle.cpp
+ /home/pjoter/Racing/Triangle.hpp
