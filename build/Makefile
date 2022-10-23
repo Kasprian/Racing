@@ -221,6 +221,114 @@ gtest/fast:
 	$(MAKE) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+LineSegment.o: LineSegment.cpp.o
+
+.PHONY : LineSegment.o
+
+# target to build an object file
+LineSegment.cpp.o:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/LineSegment.cpp.o
+.PHONY : LineSegment.cpp.o
+
+LineSegment.i: LineSegment.cpp.i
+
+.PHONY : LineSegment.i
+
+# target to preprocess a source file
+LineSegment.cpp.i:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/LineSegment.cpp.i
+.PHONY : LineSegment.cpp.i
+
+LineSegment.s: LineSegment.cpp.s
+
+.PHONY : LineSegment.s
+
+# target to generate assembly for a file
+LineSegment.cpp.s:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/LineSegment.cpp.s
+.PHONY : LineSegment.cpp.s
+
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
+RectangularTriangle.o: RectangularTriangle.cpp.o
+
+.PHONY : RectangularTriangle.o
+
+# target to build an object file
+RectangularTriangle.cpp.o:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/RectangularTriangle.cpp.o
+.PHONY : RectangularTriangle.cpp.o
+
+RectangularTriangle.i: RectangularTriangle.cpp.i
+
+.PHONY : RectangularTriangle.i
+
+# target to preprocess a source file
+RectangularTriangle.cpp.i:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/RectangularTriangle.cpp.i
+.PHONY : RectangularTriangle.cpp.i
+
+RectangularTriangle.s: RectangularTriangle.cpp.s
+
+.PHONY : RectangularTriangle.s
+
+# target to generate assembly for a file
+RectangularTriangle.cpp.s:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/RectangularTriangle.cpp.s
+.PHONY : RectangularTriangle.cpp.s
+
+Triangle.o: Triangle.cpp.o
+
+.PHONY : Triangle.o
+
+# target to build an object file
+Triangle.cpp.o:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Triangle.cpp.o
+.PHONY : Triangle.cpp.o
+
+Triangle.i: Triangle.cpp.i
+
+.PHONY : Triangle.i
+
+# target to preprocess a source file
+Triangle.cpp.i:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Triangle.cpp.i
+.PHONY : Triangle.cpp.i
+
+Triangle.s: Triangle.cpp.s
+
+.PHONY : Triangle.s
+
+# target to generate assembly for a file
+Triangle.cpp.s:
+	$(MAKE) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/Triangle.cpp.s
+.PHONY : Triangle.cpp.s
+
 mytests.o: mytests.cpp.o
 
 .PHONY : mytests.o
@@ -265,6 +373,18 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... LineSegment.o"
+	@echo "... LineSegment.i"
+	@echo "... LineSegment.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
+	@echo "... RectangularTriangle.o"
+	@echo "... RectangularTriangle.i"
+	@echo "... RectangularTriangle.s"
+	@echo "... Triangle.o"
+	@echo "... Triangle.i"
+	@echo "... Triangle.s"
 	@echo "... mytests.o"
 	@echo "... mytests.i"
 	@echo "... mytests.s"

@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/pjoter/Racing/build",
+  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/include -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/mytests.dir/mytests.cpp.o -c /home/pjoter/Racing/mytests.cpp",
+  "file": "/home/pjoter/Racing/mytests.cpp"
+},
+{
+  "directory": "/home/pjoter/Racing/build",
+  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/include -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/mytests.dir/Point.cpp.o -c /home/pjoter/Racing/Point.cpp",
+  "file": "/home/pjoter/Racing/Point.cpp"
+},
+{
+  "directory": "/home/pjoter/Racing/build",
+  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/include -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/mytests.dir/LineSegment.cpp.o -c /home/pjoter/Racing/LineSegment.cpp",
+  "file": "/home/pjoter/Racing/LineSegment.cpp"
+},
+{
+  "directory": "/home/pjoter/Racing/build",
+  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/include -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/mytests.dir/Triangle.cpp.o -c /home/pjoter/Racing/Triangle.cpp",
+  "file": "/home/pjoter/Racing/Triangle.cpp"
+},
+{
+  "directory": "/home/pjoter/Racing/build",
+  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/include -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/mytests.dir/RectangularTriangle.cpp.o -c /home/pjoter/Racing/RectangularTriangle.cpp",
+  "file": "/home/pjoter/Racing/RectangularTriangle.cpp"
+},
+{
+  "directory": "/home/pjoter/Racing/build/googletest/googlemock",
+  "command": "/usr/bin/g++   -isystem /home/pjoter/Racing/googletest/googlemock/include -isystem /home/pjoter/Racing/googletest/googlemock -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/pjoter/Racing/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/pjoter/Racing/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/pjoter/Racing/build/googletest/googlemock",
+  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/googlemock/include -I/home/pjoter/Racing/googletest/googlemock -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/pjoter/Racing/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/pjoter/Racing/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/pjoter/Racing/build/googletest/googletest",
+  "command": "/usr/bin/g++   -isystem /home/pjoter/Racing/googletest/googletest/include -isystem /home/pjoter/Racing/googletest/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/pjoter/Racing/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/pjoter/Racing/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/pjoter/Racing/build/googletest/googletest",
+  "command": "/usr/bin/g++   -I/home/pjoter/Racing/googletest/googletest/include -I/home/pjoter/Racing/googletest/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/pjoter/Racing/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/pjoter/Racing/googletest/googletest/src/gtest-all.cc"
+}
+]

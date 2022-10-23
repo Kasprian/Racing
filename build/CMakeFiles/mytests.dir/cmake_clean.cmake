@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mytests.dir/LineSegment.cpp.o"
+  "CMakeFiles/mytests.dir/Point.cpp.o"
+  "CMakeFiles/mytests.dir/RectangularTriangle.cpp.o"
+  "CMakeFiles/mytests.dir/Triangle.cpp.o"
   "CMakeFiles/mytests.dir/mytests.cpp.o"
   "mytests"
   "mytests.pdb"

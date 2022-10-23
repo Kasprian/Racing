@@ -4,6 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pjoter/Racing/LineSegment.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/LineSegment.cpp.o"
+  "/home/pjoter/Racing/Point.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/Point.cpp.o"
+  "/home/pjoter/Racing/RectangularTriangle.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/RectangularTriangle.cpp.o"
+  "/home/pjoter/Racing/Triangle.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/Triangle.cpp.o"
   "/home/pjoter/Racing/mytests.cpp" "/home/pjoter/Racing/build/CMakeFiles/mytests.dir/mytests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

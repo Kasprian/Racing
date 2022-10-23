@@ -1,1 +1,1 @@
-/usr/bin/g++     CMakeFiles/mytests.dir/mytests.cpp.o  -o mytests  lib/libgtest.a -lpthread 
+/usr/bin/g++  -g   CMakeFiles/mytests.dir/mytests.cpp.o CMakeFiles/mytests.dir/Point.cpp.o CMakeFiles/mytests.dir/LineSegment.cpp.o CMakeFiles/mytests.dir/Triangle.cpp.o CMakeFiles/mytests.dir/RectangularTriangle.cpp.o  -o mytests  lib/libgtest.a -lpthread 

@@ -70,18 +70,78 @@ CMakeFiles/mytests.dir/mytests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytests.dir/mytests.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pjoter/Racing/mytests.cpp -o CMakeFiles/mytests.dir/mytests.cpp.s
 
+CMakeFiles/mytests.dir/Point.cpp.o: CMakeFiles/mytests.dir/flags.make
+CMakeFiles/mytests.dir/Point.cpp.o: ../Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pjoter/Racing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mytests.dir/Point.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mytests.dir/Point.cpp.o -c /home/pjoter/Racing/Point.cpp
+
+CMakeFiles/mytests.dir/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytests.dir/Point.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pjoter/Racing/Point.cpp > CMakeFiles/mytests.dir/Point.cpp.i
+
+CMakeFiles/mytests.dir/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytests.dir/Point.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pjoter/Racing/Point.cpp -o CMakeFiles/mytests.dir/Point.cpp.s
+
+CMakeFiles/mytests.dir/LineSegment.cpp.o: CMakeFiles/mytests.dir/flags.make
+CMakeFiles/mytests.dir/LineSegment.cpp.o: ../LineSegment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pjoter/Racing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mytests.dir/LineSegment.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mytests.dir/LineSegment.cpp.o -c /home/pjoter/Racing/LineSegment.cpp
+
+CMakeFiles/mytests.dir/LineSegment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytests.dir/LineSegment.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pjoter/Racing/LineSegment.cpp > CMakeFiles/mytests.dir/LineSegment.cpp.i
+
+CMakeFiles/mytests.dir/LineSegment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytests.dir/LineSegment.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pjoter/Racing/LineSegment.cpp -o CMakeFiles/mytests.dir/LineSegment.cpp.s
+
+CMakeFiles/mytests.dir/Triangle.cpp.o: CMakeFiles/mytests.dir/flags.make
+CMakeFiles/mytests.dir/Triangle.cpp.o: ../Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pjoter/Racing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mytests.dir/Triangle.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mytests.dir/Triangle.cpp.o -c /home/pjoter/Racing/Triangle.cpp
+
+CMakeFiles/mytests.dir/Triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytests.dir/Triangle.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pjoter/Racing/Triangle.cpp > CMakeFiles/mytests.dir/Triangle.cpp.i
+
+CMakeFiles/mytests.dir/Triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytests.dir/Triangle.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pjoter/Racing/Triangle.cpp -o CMakeFiles/mytests.dir/Triangle.cpp.s
+
+CMakeFiles/mytests.dir/RectangularTriangle.cpp.o: CMakeFiles/mytests.dir/flags.make
+CMakeFiles/mytests.dir/RectangularTriangle.cpp.o: ../RectangularTriangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pjoter/Racing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mytests.dir/RectangularTriangle.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mytests.dir/RectangularTriangle.cpp.o -c /home/pjoter/Racing/RectangularTriangle.cpp
+
+CMakeFiles/mytests.dir/RectangularTriangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytests.dir/RectangularTriangle.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pjoter/Racing/RectangularTriangle.cpp > CMakeFiles/mytests.dir/RectangularTriangle.cpp.i
+
+CMakeFiles/mytests.dir/RectangularTriangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytests.dir/RectangularTriangle.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pjoter/Racing/RectangularTriangle.cpp -o CMakeFiles/mytests.dir/RectangularTriangle.cpp.s
+
 # Object files for target mytests
 mytests_OBJECTS = \
-"CMakeFiles/mytests.dir/mytests.cpp.o"
+"CMakeFiles/mytests.dir/mytests.cpp.o" \
+"CMakeFiles/mytests.dir/Point.cpp.o" \
+"CMakeFiles/mytests.dir/LineSegment.cpp.o" \
+"CMakeFiles/mytests.dir/Triangle.cpp.o" \
+"CMakeFiles/mytests.dir/RectangularTriangle.cpp.o"
 
 # External object files for target mytests
 mytests_EXTERNAL_OBJECTS =
 
 mytests: CMakeFiles/mytests.dir/mytests.cpp.o
+mytests: CMakeFiles/mytests.dir/Point.cpp.o
+mytests: CMakeFiles/mytests.dir/LineSegment.cpp.o
+mytests: CMakeFiles/mytests.dir/Triangle.cpp.o
+mytests: CMakeFiles/mytests.dir/RectangularTriangle.cpp.o
 mytests: CMakeFiles/mytests.dir/build.make
 mytests: lib/libgtest.a
 mytests: CMakeFiles/mytests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pjoter/Racing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mytests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pjoter/Racing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable mytests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mytests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
